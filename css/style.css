@@ -56,7 +56,7 @@ footer p {
 
 /* banner home */
 
-main#banner {
+section#banner {
   background-image: url('../img/jane.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -110,4 +110,35 @@ main#music {
 main#contact {
   width: 900px;
   margin: 30px auto;
+}
+
+/* home v2 */
+
+section#concept,
+section#songs {
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+section#songs img {
+  width: 100%;
+}
+
+.duas-colunas {
+  overflow: hidden;
+}
+
+.duas-colunas>div {
+  width: 50%;
+  float: left;
+}
+
+section#songs li {
+  padding: 20px 0;
+}
+
+section#songs li strong {
+  color: orange;
 }
