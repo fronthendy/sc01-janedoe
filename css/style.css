@@ -15,7 +15,13 @@ body {
 
 header {
   text-align: center;
-  border: 2px solid #ccc;
+  /* border: 2px solid #ccc; */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
 }
 
 nav ul {
@@ -44,6 +50,12 @@ header h1 {
 }
 
 /* header end */
+
+main,
+main#contact,
+main#music {
+  margin-top: 138px !important;
+}
 
 /* footer start */
 
